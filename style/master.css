@@ -8,7 +8,11 @@ h2 {
   display: block;
   text-transform: uppercase;
   color: rgb(51, 51, 51);
-  font-weight: bold;
+  font-size: 20pt;
+}
+ul, ol {
+  margin: 0;
+  padding-left: 20px;
 }
 .main {
   display: block;
@@ -64,7 +68,7 @@ ul.nav li a {
   padding: 3px 10px 3px 10px;
 }
 ul.nav li a:hover {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgb(255, 0, 0);
 }
 .link {
   position: fixed;
@@ -94,21 +98,27 @@ div.link img:hover {
   width: 42%;
   display: block;
   float: right;
-  padding: 10px 80px 80px 0px;
+  padding: 10px 80px 20px 0px;
   line-height: 2;
   border-right: 1px dashed rgb(210, 210, 210);
-  background-color: white;
+}
+.bar {
+  display: block;
+  height: 10px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 ol li a:visited{
   color: red;
 }
+.poem {
+  padding-left: 0px;
+}
 table {
-  border: 1px solid grey;
   background-color: grey;
 }
 th, td{
   background-color: white;
-  border: 1px solid grey;
   border-spacing: 3px;
   padding: 3px;
   width: 80px;

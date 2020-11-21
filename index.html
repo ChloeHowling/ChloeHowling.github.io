@@ -4,21 +4,22 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style/master.css">
     <title>About Chloe Tam</title>
+    <link rel="icon" href="img/favicon.ico">
   </head>
   <body>
-  <div class="nav">
-  <ul class="nav">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#reading">Books</a></li>
-    <li><a href="#poem">Poem</a></li>
-    <li><a href="#schedule">Schedule</a></li>
-    <li><a href="#interests">Interests</a></li>
-  </ul>
-</div>
+    <div class="nav">
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#reading">Books</a></li>
+        <li><a href="#poem">Poem</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+      </ul>
+    </div>
     <div class="main">
       <!--pic of me, no larger than 500x500px
       (same folder as index.html?)-->
-      <img class="profile" id="profilePic" src="img/profile_L.jpg" alt="Chloe Tam Profile Pic">
+      <img class="profile" id="profilePic" src="img/Profile_L.jpg" alt="Chloe Tam Profile Pic">
       <div class="profile" id="name"><h1>CHLOE<br>TAM</h1></div>
       <div class="info">
         <br id="home"><br>
@@ -32,7 +33,7 @@
         <br id="reading">
 
         <h2>My Five Favorite Books</h2>
-        <ol>
+        <ol class="books">
           <li><i>Gone With the Wind</i>, <a href="https://en.wikipedia.org/wiki/Margaret_Mitchell" target="_blank">Margaret Mitchell</a></li>
           <li><i>Braiding Sweet Grass</i>, <a href="https://www.robinwallkimmerer.com/" target="_blank">Robin Wall Kimmerer</a></li>
           <li><i>Educated</i>, <a href="https://tarawestover.com/" target="_blank">Tara Westover</a></li>
@@ -61,6 +62,22 @@
           It is <i>my</i> secret metal thread<br>
           ___<br>
         </div>
+        <br id="interests">
+
+        <h2>Personal Interests</h2>
+        <p>
+          I grew up in an artistic household. I enjoyed painting since I was a toddler.
+          The painter that I appreciate the most is Pablo Picasso. There is just nothing like his paintings.
+        </p>
+        <p>
+          I don't do much sport, but I do love running. Especially barefoot running.
+          It was a challenge to go from running in cushioned sports shoes to running in zero-drop shoes.
+          The sensory coming from running feets makes the exercise that much more enjoyable.
+        </p>
+        <p>
+          Something I recently got into doing is candle making. You can infuse color, scent, and other cool things into your candle.
+          Just make sure don't burn down your house when experimenting with different types of wax.
+        </p>
         <br id="schedule">
 
         <h2>Class Schedule</h2>
@@ -75,43 +92,40 @@
         </tr>
         <tr>
           <td>14:00</td>
-          <td rowspan="2" class="English">English</td>
+          <td rowspan="2" class="english_cls">English</td>
           <td>Therapy</td>
-          <td rowspan="2" class="English">English</td>
+          <td rowspan="2" class="english_cls">English</td>
           <td>Lunch</td>
-          <td rowspan="2" class="English">English</td>
+          <td rowspan="2" class="english_cls">English</td>
         </tr>
         <tr>
           <td>14:30</td>
-          <td rowspan="2" >Computer Network</td>
-          <td rowspan="2">Computer Network</td>
+          <td rowspan="2" class="network_cls">Computer Network</td>
+          <td rowspan="2" class="network_cls">Computer Network</td>
         </tr>
         <tr>
           <td>15:00</td>
-          <td rowspan="2">Data Algorithm</td>
-          <td rowspan="2">Data Algorithm</td>
-          <td rowspan="2">Data Algorithm</td>
+          <td rowspan="2" class="data_cls">Data Algorithm</td>
+          <td rowspan="2" class="data_cls">Data Algorithm</td>
+          <td rowspan="2" class="data_cls">Data Algorithm</td>
         </tr>
         <tr>
           <td>15:30</td>
-          <td rowspan="2">Tutoring</td>
-          <td rowspan="2">Tutoring</td>
+          <td rowspan="2" class="tutor_tsl">Tutoring</td>
+          <td rowspan="2" class="tutor_tsl">Tutoring</td>
         </tr>
         <tr>
           <td>16:00</td>
-          <td>PE</td>
+          <td class="pe_cls">PE</td>
           <td>Homework</td>
-          <td>PE</td>
+          <td class="pe_cls">PE</td>
         </tr>
       </table>
-      <br id="interests">
-
-      <h2>Personal Interests</h2>
-      <p></p>
-      <p></p>
-      <p></p>
+      <br><br>
       </div>
+    <div class="foot">Copyright &copy; 2020 &mdash; Chloe Tam
+      <div class="link"><a href="https://github.com/ChloeHowling/ChloeHowling.github.io.git" target="_blank"><img src="img/link.png" alt="sourceCode"></a></div>
     </div>
-    <div class="foot">Copyright &copy; 2020 &mdash; Chloe Tam</div>
+  </div>
   </body>
 </html>
